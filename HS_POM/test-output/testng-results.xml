@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="183789" started-at="2018-07-09T07:22:59Z" finished-at="2018-07-09T07:26:03Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="183789" started-at="2018-07-09T07:22:59Z" finished-at="2018-07-09T07:26:03Z">
+      <class name="com.testerconnect.tests.SmokeTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.testerconnect.tests.SmokeTest@1622fdf]" name="init" is-config="true" duration-ms="29285" started-at="2018-07-09T07:22:59Z" finished-at="2018-07-09T07:23:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="verify_HS_Login()[pri:1, instance:com.testerconnect.tests.SmokeTest@1622fdf]" name="verify_HS_Login" duration-ms="23287" started-at="2018-07-09T07:23:28Z" description="Veify Login page" finished-at="2018-07-09T07:23:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_HS_Login -->
+        <test-method status="PASS" signature="CreateContact()[pri:2, instance:com.testerconnect.tests.SmokeTest@1622fdf]" name="CreateContact" duration-ms="78839" started-at="2018-07-09T07:23:52Z" description="Create Contact" finished-at="2018-07-09T07:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateContact -->
+        <test-method status="PASS" signature="DeleteContact()[pri:3, instance:com.testerconnect.tests.SmokeTest@1622fdf]" name="DeleteContact" duration-ms="43021" started-at="2018-07-09T07:25:10Z" description="Delete Contact" finished-at="2018-07-09T07:25:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteContact -->
+        <test-method status="PASS" signature="signOut()[pri:4, instance:com.testerconnect.tests.SmokeTest@1622fdf]" name="signOut" duration-ms="7329" started-at="2018-07-09T07:25:54Z" description="Verify SignOut functionality in HubSpot" finished-at="2018-07-09T07:26:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOut -->
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:com.testerconnect.tests.SmokeTest@1622fdf]" name="cleanup" is-config="true" duration-ms="1931" started-at="2018-07-09T07:26:01Z" finished-at="2018-07-09T07:26:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- com.testerconnect.tests.SmokeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
